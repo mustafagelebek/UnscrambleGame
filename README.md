@@ -1,21 +1,50 @@
-Unscramble app
-=================================
+# 🧩 Unscramble Game (My Improved Version)
 
-Single player game app that displays scrambled words. To play the game, player has to make a
-word using all the letters in the displayed scrambled word.
-This code demonstrates the Android Architecture component- ViewModel and StateFlow.
+This is my customized version of the **Unscramble Game** project — originally based on Google's Android Kotlin Compose training codelab.  
+I’ve made improvements and fixes while learning about **Jetpack Compose**, **ViewModel**, **StateFlow**, and **unidirectional data flow (UDF)** architecture.
 
+---
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
-* How to create composable functions 
+## 🚀 What I Learned & Improved
+- Implemented **MVVM architecture** using `ViewModel` and `StateFlow`
+- Managed **UI state** efficiently through immutable `GameUiState`
+- Added **game logic**:
+  - Random word selection and shuffling
+  - User input handling (`updateUserGuess`, `checkUserGuess`, `skipWord`)
+  - Score tracking and word counter
+  - Game-over logic for last round
+- Enhanced **UI feedback** with dynamic labels and error states (`isGuessedWordWrong`)
+- Improved **Compose layout** for better readability and code separation
 
+---
 
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+## 🧠 Tech Stack
+- **Language:** Kotlin  
+- **UI Toolkit:** Jetpack Compose  
+- **Architecture:** MVVM + Unidirectional Data Flow  
+- **State Management:** ViewModel + StateFlow  
+- **IDE:** Android Studio
+
+---
+
+## 📸 Preview
+<img src="https://github.com/mustafagelebek/UnscrambleGame/assets/example_screenshot.png" width="400"/>
+
+---
+
+## 💬 About This Version
+This repository contains my personal modifications to the codelab project.  
+All code changes were made for educational purposes as part of my Android development learning journey.
+
+---
+
+### 🧑‍💻 Author
+**Mustafa Gelebek**  
+Android Developer | Kotlin & Compose Learner  
+🔗 [GitHub Profile](https://github.com/mustafagelebek)
+
+---
+
+### 📜 License
+Based on the [Google Codelab Unscramble Game](https://github.com/google-developer-training/basic-android-kotlin-compose-training-unscramble).  
+This version includes personal modifications and improvements.
